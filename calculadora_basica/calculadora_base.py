@@ -15,7 +15,7 @@ if a == '*':# caso a variavel tiver o mesmo valor da opracao ela é feita
     print (numero1*numero2)#apresenta a multiplicacao
 
 
-#dapra fazer com match case ficaria assim :
+#dapra fazer com match case ficaria assim : (fica mais bonito e otimisado))
 #match a: #qual a vriavel vai ser analisada
 #    case '+':
 #        print (numero1+numero2) #apresenta a soma
