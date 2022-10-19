@@ -5,10 +5,10 @@
 
 # num=X(input('Digite qual TABUADA deseja: '));
 # dependendo do q é posto no lugar de X ele vai reagir de uma forma,
-# caso deixe sem nada como no programa ele vai aceitar qual quer coisa e fazer a operação,
+# caso deixe aonde esta int, ele vai aceitar qual quer coisa, e vai escrever isso as x vezes ,
 # (o q pode ser posto que eu sei no momento é float, int, acredito que char e ou doble(essas ultimas duas eu n tenho certeza)).
 
-num=(input('Digite qual TABUADA deseja: '));
+num= int (input('Digite qual TABUADA deseja: '));
 
 for i in range (1, 11):
     
