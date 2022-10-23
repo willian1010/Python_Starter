@@ -1,0 +1,3 @@
+vetor=[]
+
+print(type(vetor))
