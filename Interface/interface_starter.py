@@ -9,7 +9,7 @@ layout= [
     
 ]
 
-janela = sg.Window('Tela',layout)
+janela = sg.Window('Tela de Log-in',layout)
 
 
 while True:
