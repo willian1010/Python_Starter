@@ -23,16 +23,16 @@ while True:
         if valores['operacao']== '+':
             x=float(valores[0]) 
             y=float(valores[1])
-            print(x+y)
+            sg.popup(x+y)
         if valores['operacao']== '-':
             x=float(valores[0]) 
             y=float(valores[1])
-            print(x-y)
+            sg.popup(x-y)
         if valores['operacao']== '/':
             x=float(valores[0]) 
             y=float(valores[1])
-            print(x/y)
+            sg.popup(x/y)
         if valores['operacao']== '*':
             x=float(valores[0]) 
             y=float(valores[1])
-            print(x*y)
+            sg.popup(x*y)
