@@ -1,3 +1,0 @@
-vetor=[]
-
-print(type(vetor))
