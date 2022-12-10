@@ -8,10 +8,10 @@
 # caso deixe aonde esta int, ele vai aceitar qual quer coisa, e vai escrever isso as x vezes ,
 # (o q pode ser posto que eu sei no momento é float, int, acredito que char e ou doble(essas ultimas duas eu n tenho certeza)).
 
-num= int (input('Digite qual TABUADA deseja: '));
+num= int (input('Digite qual TABUADA deseja: '))
 
 for i in range (1, 11):
     
-    print('{:2} x {:2} = {:2}'.format(num,i,num*i));
+    print('{:2} x {:2} = {:2}'.format(num,i,num*i))
 else:
-    print('-'*15);
+    print('-'*15)
